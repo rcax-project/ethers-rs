@@ -73,6 +73,7 @@ pub enum Chain {
     ArbitrumTestnet = 421611,
     ArbitrumGoerli = 421613,
     ArbitrumSepolia = 421614,
+    #[serde(alias = "arbitrum-nova")]
     ArbitrumNova = 42170,
 
     Cronos = 25,
